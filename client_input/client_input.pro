@@ -1,4 +1,4 @@
-update=Wednesday, July 06, 2016 'pmt' 04:24:38 pm
+update=Friday, July 08, 2016 'amt' 11:42:51 am
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=kicad-ESP8266/ESP8266
 LibName31=dips-s
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
