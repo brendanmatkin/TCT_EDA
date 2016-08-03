@@ -131,7 +131,7 @@ U 1 1 577D9FFA
 P 6550 4250
 F 0 "SW3" H 6700 4360 50  0000 C CNN
 F 1 "Bootload" H 6550 4170 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 6550 4250 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 6550 4250 50  0001 C CNN
 F 3 "" H 6550 4250 50  0000 C CNN
 	1    6550 4250
 	1    0    0    -1  
@@ -142,7 +142,7 @@ U 1 1 577DA05A
 P 3150 2250
 F 0 "SW2" H 3300 2360 50  0000 C CNN
 F 1 "RESET" H 3150 2170 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 3150 2250 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 3150 2250 50  0001 C CNN
 F 3 "" H 3150 2250 50  0000 C CNN
 	1    3150 2250
 	1    0    0    -1  
