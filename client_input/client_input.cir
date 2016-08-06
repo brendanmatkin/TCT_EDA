@@ -1,0 +1,38 @@
+* /Users/bbmatkin/Documents/!SFU/!TANGIBLE/pcb/TCT_EDA/client_input/client_input.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Thursday, August 04, 2016 'amt' 10:24:20 am
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  Net-_P1-Pad1_ Net-_P1-Pad2_ Net-_P1-Pad3_ Net-_P1-Pad4_ Net-_P1-Pad5_ Net-_P1-Pad6_ Net-_P1-Pad7_ Net-_P1-Pad8_ GND SPI_SS MOSI MISO SPI_CLK GND +3V3 +3V3 MCP3208		
+P4  GND ? FTDI_VCC Net-_P4-Pad4_ Net-_P4-Pad5_ ? FTDI		
+SW3  BL_sw GND Bootload		
+SW1  RST GND RESET		
+D1  +Vin ? GND Net-_D1-Pad4_ WS2812B		
+R2  LED_stat Net-_D1-Pad4_ 560		
+SW4  Net-_P10-Pad1_ Net-_P10-Pad2_ Net-_P10-Pad3_ Net-_P10-Pad4_ Net-_P10-Pad5_ Net-_P10-Pad6_ Net-_P10-Pad7_ Net-_P10-Pad8_ GND GND GND GND GND GND GND GND DIPS_08		
+U5  Pair_sw Net-_P7-Pad1_ Net-_P7-Pad2_ Net-_P7-Pad3_ Net-_P7-Pad4_ Net-_P7-Pad5_ Net-_P7-Pad6_ Net-_P7-Pad7_ +3V3 GND SCL SDA GND GND GND +3V3 Net-_P6-Pad8_ Net-_P6-Pad7_ Net-_P6-Pad6_ Net-_P6-Pad5_ Net-_P6-Pad4_ Net-_P6-Pad3_ Net-_P6-Pad2_ Net-_P6-Pad1_ MCP23017		
+P1  Net-_P1-Pad1_ Net-_P1-Pad2_ Net-_P1-Pad3_ Net-_P1-Pad4_ Net-_P1-Pad5_ Net-_P1-Pad6_ Net-_P1-Pad7_ Net-_P1-Pad8_ Analog In		
+P6  Net-_P6-Pad1_ Net-_P6-Pad2_ Net-_P6-Pad3_ Net-_P6-Pad4_ Net-_P6-Pad5_ Net-_P6-Pad6_ Net-_P6-Pad7_ Net-_P6-Pad8_ GND Ribbon		
+P10  Net-_P10-Pad1_ Net-_P10-Pad2_ Net-_P10-Pad3_ Net-_P10-Pad4_ Net-_P10-Pad5_ Net-_P10-Pad6_ Net-_P10-Pad7_ Net-_P10-Pad8_ GND Ribbon		
+SW2  Pair_sw GND PAIR_MODE		
+R3  +BATT BattSense 100k		
+R4  GND BattSense 22k		
+P7  Net-_P7-Pad1_ Net-_P7-Pad2_ Net-_P7-Pad3_ Net-_P7-Pad4_ Net-_P7-Pad5_ Net-_P7-Pad6_ Net-_P7-Pad7_ +3V3 Ribbon		
+P5  GND +BATT LiPo		
+U3  RST BattSense CH_PD RST SPI_CLK MISO MOSI +3V3 ? ? ? ? ? ? GND SPI_SS LED_stat BL_sw SDA SCL Net-_P4-Pad4_ Net-_P4-Pad5_ ESP-12E		
+U4  GND +Vin +3V3 MCP1700-3302		
+C1  +3V3 GND 2.2uF		
+R1  SPI_SS GND 10k		
+RR1  +3V3 BL_sw CH_PD RST ? ? RR5		
+U6  Net-_P9-Pad1_ Net-_P9-Pad2_ Net-_P9-Pad3_ Net-_P9-Pad4_ Net-_P9-Pad5_ Net-_P9-Pad6_ Net-_P9-Pad7_ Net-_P9-Pad8_ +3V3 GND SCL SDA +3V3 GND GND +3V3 Net-_P8-Pad8_ Net-_P8-Pad7_ Net-_P8-Pad6_ Net-_P8-Pad5_ Net-_P8-Pad4_ Net-_P8-Pad3_ Net-_P8-Pad2_ Net-_P8-Pad1_ MCP23017		
+P8  Net-_P8-Pad1_ Net-_P8-Pad2_ Net-_P8-Pad3_ Net-_P8-Pad4_ Net-_P8-Pad5_ Net-_P8-Pad6_ Net-_P8-Pad7_ Net-_P8-Pad8_ GND Ribbon		
+P9  Net-_P9-Pad1_ Net-_P9-Pad2_ Net-_P9-Pad3_ Net-_P9-Pad4_ Net-_P9-Pad5_ Net-_P9-Pad6_ Net-_P9-Pad7_ Net-_P9-Pad8_ +3V3 Ribbon		
+U2  Net-_P2-Pad1_ Net-_P2-Pad2_ Net-_P2-Pad3_ Net-_P2-Pad4_ Net-_P2-Pad5_ Net-_P2-Pad6_ Net-_P2-Pad7_ Net-_P2-Pad8_ GND Net-_P3-Pad1_ MOSI MISO SPI_CLK GND +3V3 +3V3 MCP3208		
+P2  Net-_P2-Pad1_ Net-_P2-Pad2_ Net-_P2-Pad3_ Net-_P2-Pad4_ Net-_P2-Pad5_ Net-_P2-Pad6_ Net-_P2-Pad7_ Net-_P2-Pad8_ Analog In		
+P3  Net-_P3-Pad1_ SS		
+SW5  +BATT +Vin FTDI_VCC SPDT		
+
+.end
